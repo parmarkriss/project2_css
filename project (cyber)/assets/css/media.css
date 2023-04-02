@@ -1,0 +1,243 @@
+:root {
+  --body-color: #1A191D;
+  --white-900: #FFFFFF;
+  --white-800: #B1B1B1;
+  --black-900: #252328;
+  --text: #009EFF;
+  --btn-hover: #0048bd;
+  --btn: #0058E6;
+  --main-fonts: 'Heebo';
+  --text-font: 'Open Sans';
+}
+@media(max-width:575px){
+   .about{
+    padding: 60px 0;
+   }
+   .company-service{
+    padding: 60px 0;
+   }
+}
+@media(min-width:576px){
+    .sm-1{
+        width: 8.3333%;
+    }
+    .sm-2{
+      width: 16.6666%;
+    }
+    .sm-3{
+      width: 24.99%;
+    }
+    .sm-4{
+      width: 33.33%;
+    }
+    .sm-5{
+      width: 41.99%;
+    }
+    .sm-6{
+      width: 50%;
+    }
+    .sm-7{
+      width: 58.33%;
+    }
+    .sm-8{
+      width: 66.66%;
+    }
+    .sm-9{
+      width: 75%;
+    }
+    .sm-10{
+      width: 83.32%;
+    }
+    .sm-11{
+      width: 91.65%;
+    }
+    .sm-12{
+      width: 100%;
+    }
+    .d-none{
+      display: none;
+  }
+  .icon-none{
+    display: none;
+  }
+  .to-block{
+    display: block;
+  }
+    
+}
+@media(min-width:768px){
+    .md-1{
+        width: 8.3333%;
+    }
+    .md-2{
+      width: 16.6666%;
+    }
+    .md-3{
+      width: 24.99%;
+    }
+    .md-4{
+      width: 33.33%;
+    }
+    .md-5{
+      width: 41.99%;
+    }
+    .md-6{
+      width: 50%;
+    }
+    .md-7{
+      width: 58.33%;
+    }
+    .md-8{
+      width: 66.66%;
+    }
+    .md-9{
+      width: 75%;
+    }
+    .md-10{
+      width: 83.32%;
+    }
+    .md-11{
+      width: 91.65%;
+    }
+    .md-12{
+      width: 100%;
+    }
+    .d-none{
+      display: none;
+  }
+  .icon-none{
+    display: none;
+  }
+  .to-block{
+    display: block;
+  }
+  .xl-4 input{
+    width: 90%;
+  }
+  .input .btn3{
+    width: 100%;
+  }
+  .about{
+    padding: 60px 0;
+   }
+   .company-service{
+    padding: 60px 0;
+   }  
+}
+@media(min-width:991px){
+    .lg-1{
+        width: 8.3333%;
+    }
+    .lg-2{
+      width: 16.6666%;
+    }
+    .lg-3{
+      width: 24.99%;
+    }
+    .lg-4{
+      width: 33.33%;
+    }
+    .lg-5{
+      width: 41.99%;
+    }
+    .lg-6{
+      width: 50%;
+    }
+    .lg-7{
+      width: 58.33%;
+    }
+    .lg-8{
+      width: 66.66%;
+    }
+    .lg-9{
+      width: 75%;
+    }
+    .lg-10{
+      width: 83.32%;
+    }
+    .lg-11{
+      width: 91.65%;
+    }
+    .lg-12{
+      width: 100%;
+    }
+    .d-none{
+      display: none;
+  }
+  .icon-none{
+    display: none;
+  }
+  .to-block{
+    display: block;
+  }
+  .xl-4 input{
+    width: 90%;
+  }
+  .input .btn3{
+    width: 100%;
+  } 
+  .about{
+    padding: 60px 0;
+   }
+   .company-service{
+    padding: 60px 0;
+   }
+  
+}
+@media(min-width:1200px){
+    .xl-1{
+        width: 8.3333%;
+    }
+    .xl-2{
+      width: 16.6666%;
+    }
+    .xl-3{
+      width: 24.99%;
+    }
+    .xl-4{
+      width: 33.33%;
+    }
+    .xl-5{
+      width: 41.99%;
+    }
+    .xl-6{
+      width: 50%;
+    }
+    .xl-7{
+      width: 58.33%;
+    }
+    .xl-8{
+      width: 66.66%;
+    }
+    .xl-9{
+      width: 75%;
+    }
+    .xl-10{
+      width: 83.32%;
+    }
+    .xl-11{
+      width: 91.65%;
+    }
+    .xl-12{
+      width: 100%;
+    }
+    .d-block{
+      display: block;
+  }
+  .icon-block{
+    display: block;
+}
+.to-none{
+  display: none;
+}
+header .menu .logo{
+  display: none;
+
+}
+.xl-4 input{
+  width: 225px;
+}
+.input .btn3{
+  width: 80px;
+} 
+}

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.container-2{
+    max-width: 1650px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0 50px 0 50px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+:root{
+    --body-color:#1A191D;
+    --white-900:#FFFFFF;
+    --white-800:#B1B1B1;
+    --black-900:#252328;
+    --text:#009EFF;
+    --btn-hover:#0048bd;
+    --btn:#0058E6;
+    --main-fonts: 'Heebo';
+    --text-font:'Open Sans';
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-end{
+    justify-content: end;
+}
+.justify-content-start{
+    justify-content: start;
+}
+.align-items-center{
+    align-items: center;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.devider{
+    border: 0.1px solid var(--white-800);
+    margin: 30px 0;
+    width: 100%;
+}

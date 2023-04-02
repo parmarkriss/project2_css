@@ -1,0 +1,46 @@
+:root {
+  --body-color: #1A191D;
+  --white-900: #FFFFFF;
+  --white-800: #B1B1B1;
+  --black-900: #252328;
+  --text: #009EFF;
+  --btn-hover: #0048bd;
+  --btn: #0058E6;
+  --main-fonts: 'Heebo';
+  --text-font: 'Open Sans';
+}
+.cursor {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 2px solid var(--btn-hover);
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+}
+
+.cursor2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: var(--white-900);
+  opacity: .3;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .3s, height .3s, opacity .3s;
+}
+
+.hover {
+  background-color: red;
+  opacity: 0.5;
+}
+
+.cursorinnerhover {
+  width: 50px;
+  height: 50px;
+  opacity: .5;
+}
